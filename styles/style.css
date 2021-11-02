@@ -1,0 +1,175 @@
+body{
+    background-color: #FCD8D4;
+    background-image: url("../img/fondo-nunny.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Glory', sans-serif;
+    font-size: 30px;  
+}
+
+/*Desafio 5 y 6*/
+
+.header{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-family: 'Glory', sans-serif;
+    background-color: #FCD8D4;
+    padding: 10px;
+}
+
+.hijo1 , .hijo2 , .hijo3 , .hijo4 , .hijo5{
+    text-align: center;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    padding: 5px;
+}
+.hijo1{flex: 5;}
+.hijo2{flex: 6;}
+.hijo3{flex: 1;}
+.hijo4{flex: 1;}
+.hijo5{flex: 1;}
+
+.división{
+    display: flex;
+}
+
+.main{
+    flex: 60%;
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+}
+
+.aside{
+    flex: 40px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #FCD8D4;
+    text-align: center;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #FCD8D4;
+}
+
+/*Desafio 2 y 4*/
+
+.titulo{
+    font-family: 'Amatic SC', cursive; 
+}
+
+h1.titulo{
+    font-size: 100px;
+
+}
+
+h3.titulo{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Glory', sans-serif;
+}
+
+img{
+    width: 250px;
+}
+
+.img-piel{
+    margin: 10px;
+    margin-left: 650px;
+    margin-top: -235px;
+}
+
+.img-pasos{
+    margin: 10px;
+    margin-left: 1050px;
+    margin-top: -245px;
+}
+
+img.img-grande{
+    width: 400px;
+}
+
+.img-pequeña{
+    width: 200px;
+}
+
+
+.img-centrada{
+    display:block;
+    margin:auto;
+}
+
+.video-centrado{
+    float: right;
+    margin-right: 850px;
+}
+
+.img-der{
+    float: right;
+    margin-right: 800px;
+    margin-top: 30px;
+}
+
+.img-izq{
+    float: left;
+    margin-top: 15px;
+}
+
+.corazon{
+    font-size: 50px;
+}
+
+.minicorazon{
+    font-size: 10px;
+}
+
+.redes{
+    font-size: 30px;
+    color: black;
+}
+
+/*Desafio 7*/
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    background-color:rgba(255, 255, 255, 0.459);
+}
+
+a:active{
+    color: black;
+    border: outset 3px white;
+    background-color:rgba(255, 255, 255, 0.459);
+}
+
+/*Desafio 9*/
+.tarjeta{
+    font-size: 20px;
+}
+
+.boton{
+    background-color: #d4f6fc;
+    border: black;
+}
